@@ -28,9 +28,6 @@ for num3 in range(1, num_symbols + 1):
 # random.shuffle(pass_list)
 # password = ''.join(pass_list)
 
-password = ""
-random.shuffle(pass_list)
-for char in pass_list:
-    password += char
+password = ''.join(pass_list)
 
 print(f"Your password is: {password}")
